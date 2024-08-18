@@ -1,7 +1,7 @@
 # Dashboard-Cards
 Building dashboards with containers cards and APIs
 
-# Main Grid Container 3 Columns
+## Main Grid Container 3 Columns
 
 ```css
     <div class="grid-container">  
@@ -11,7 +11,7 @@ Building dashboards with containers cards and APIs
     </div>
 ```
 
-# Footer
+## Footer
 
 ```HTML
     <footer>
