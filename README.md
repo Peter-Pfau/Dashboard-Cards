@@ -21,8 +21,8 @@ Building dashboards with containers cards and APIs
     <script src="assets/js/include.js"></script>
 
 ```
-## Include
-
+## Using JavaScript for HTML Includes
+One of the simplest ways to include HTML files is by using a custom attribute and JavaScript. This method involves creating a div element with a custom attribute, such as w3-include-html, and then using JavaScript to load the content of the specified HTML file into this div.
 ```js
 function includeHTML() {
   var z, i, elmnt, file, xhttp;
