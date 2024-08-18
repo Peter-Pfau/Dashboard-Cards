@@ -106,3 +106,85 @@ function includeHTML() {
   }
 }
 ```
+## Cards
+
+```css
+.flex-container {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+background-color: rgb(248, 249, 251);
+border-radius: 25px;
+}
+
+.flex-container > div {
+background-color: white;
+width: 400px;
+margin: 10px;
+text-align: center;
+line-height: 75px;
+font-size: 15px;
+}
+.card-wrapper{
+    display: grid;
+    grid-template-columns: 100px 250px;
+    grid-template-rows: 55px 75px 50px;
+    grid-template-areas:
+        "side header"
+        "side main"
+        "side footer";
+        margin: 5px;
+    border: 0;
+    border-radius: 10px;
+    padding: 20px 0px 10px 0px;
+    box-shadow: 0 5px 5px rgb(0 0 0 / 49%);
+    font-size: large;
+    width: 400px;   
+}
+.bgCard1{
+    background-image: url('./Images/Forest.jpg');
+    background-size: cover;
+    opacity: 0.5;
+    
+}
+.bgCard2{
+    background-image: url('./Images/Schema.jpg');
+    background-size: cover;
+    opacity: 0.5;
+}
+.bgCard3{
+    background-image: url('./Images/Tombstone.jpg');
+    background-size: cover;
+    opacity: 0.5;
+}
+        <div class="flex-container">
+            <div class="card-wrapper">
+                <header class="header">Forest Mode</header>
+                <section class="side bgCard1"></section>
+                <main id="ForestMode" class="main-Small"></main>
+                <foot class="foot">
+                    <div id="ForestModeValue"></div>
+                    <div id="ForestDate"></div>
+                </foot>
+            </div>
+            <div class="card-wrapper card-2">
+                <header class="header">Schema Version</header>
+                <section class="side bgCard2"></section>
+                <main id="SchemaVersion" class="main-Small"></main>
+                <foot class="foot">
+                    <div id="SchemaVersionValue"></div>
+                    <div id="SchemaVersionDate"></div>
+                </foot>
+            </div>
+            <div class="card-wrapper card-3">
+                <header class="header">Tombstone Lifetime</header>
+                <section class="side bgCard3"></section>
+                <main id="TombstoneLifetime" class="main"></main>
+                <foot class="foot">
+                    <div id="TombstoneLifetimeDate"></div>
+                </foot>
+            </div>
+	</div>
+
+```
