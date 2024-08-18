@@ -13,7 +13,7 @@ Building dashboards with containers cards and APIs
 
 ## Footer
 
-```HTML
+```css
     <footer>
         <div w3-include-html="assets/nav/footer.html"></div>
      </footer>
