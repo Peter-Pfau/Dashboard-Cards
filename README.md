@@ -2,8 +2,21 @@
 Building dashboards with containers cards and APIs
 
 ## Main Grid Container 3 Columns
-
 ```css
+.grid-container{
+	display: grid;
+	grid-template-columns: 1fr 10fr 1fr;
+}
+.grid-item-LeftColumn{
+	background-color: white;
+}
+.grid-item-MiddleColumn{
+	background-color: white;
+}
+.grid-item-RightColumn{
+	background-color: white;
+}
+
     <div class="grid-container">  
         <div class="grid-item grid-item-LeftColumn"></div>
         <div class="grid-item grid-item-MiddleColumn"><!-- Middle column --></div>
