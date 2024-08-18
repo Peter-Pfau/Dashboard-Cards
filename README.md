@@ -107,6 +107,7 @@ function includeHTML() {
 }
 ```
 ## Cards
+CSS
 
 ```css
 .flex-container {
@@ -205,6 +206,9 @@ font-size: 15px;
 .foot > div{
     padding-right: 10px;
 }
+```
+HTML
+```css
         <div class="flex-container">
             <div class="card-wrapper">
                 <header class="header">Forest Mode</header>
