@@ -16,41 +16,7 @@ Building dashboards with containers cards and APIs
     <div w3-include-html="assets/nav/menu.html"></div>
 ```
 
-## Menu.html
-
-```css
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width", initial-scale="1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="../css/stylemenu.css">
-    <title>VA Authentication Services</title>
-</head>
-<body >
-    <div class="menu__bar">
-        <div><h1 class="logo">Co.<span> Department</span></h1></div>
-        <UL>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Menu_Item_1<i class="fas fa-caret-down"></i></a>
-            <div class="dropdown__menu">
-                <UL>
-                    <li><a href="#">Sub_Menu_Item_1<i class="fas fa-caret-right"></i></a>
-                        <div class="dropdown__menu-1"> 
-                            <ul>
-                                <li><a href="#">Sub2_Menu1</a></li>
-                                <li><a href="#">Sub2_Menu2</a></li>          
-                            </ul>
-                        </div>
-                    </li>
-                </UL>
-           </div>
-           </li>
-        </UL>
-    </div>
-</body>
-</html>
-```
+### hello
 ## Footer
 
 ```css
