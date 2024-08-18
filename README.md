@@ -158,6 +158,53 @@ font-size: 15px;
     background-size: cover;
     opacity: 0.5;
 }
+
+.header{
+    display: grid;
+    /* background: whitesmoke; */
+    grid-area: header;
+    text-align: center;
+    font-weight: 600;
+    padding: 5px;
+}
+.side{
+    display: grid;
+    /* background: yellow; */
+    grid-area: side;
+    border-radius: 10px 0px 0px 10px;
+    /* box-shadow: 0 5px 5px rgb(0 0 0 / 49%); */
+    
+}
+.main{
+    display: grid;
+    /* background: greenyellow; */
+    grid-area: main;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    border-radius: 0px 0px 5px 0px;
+    /* box-shadow: 0 5px 5px rgb(0 0 0 / 49%); */
+}
+.main-Small{
+    display: grid;
+    /* background: greenyellow; */
+    grid-area: main;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 600;
+    border-radius: 0px 0px 5px 0px;
+    /* box-shadow: 0 5px 5px rgb(0 0 0 / 49%); */
+}
+.foot{
+    display: flex;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    justify-content: flex-end;
+}
+.foot > div{
+    padding-right: 10px;
+}
         <div class="flex-container">
             <div class="card-wrapper">
                 <header class="header">Forest Mode</header>
